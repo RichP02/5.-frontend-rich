@@ -1,0 +1,13 @@
+Para poder crear un archvio react
+npm install vite@latest nombre_proyecto -- --template react
+
+cd nombre_proyecto
+npm install
+npm run dev
+
+
+Configuracion estandares (mejores practicas)
+npm i standard -D
+buscar el archvio .eslintrc y agregar en extends :
+    'standard',
+    'standard-jsx'
