@@ -11,3 +11,4 @@ npm i standard -D
 buscar el archvio .eslintrc y agregar en extends :
     'standard',
     'standard-jsx'
+Despues en rules agregar, 'react/prop-types': 'off'
