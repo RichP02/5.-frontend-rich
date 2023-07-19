@@ -21,12 +21,11 @@ function App() {
         <div className='grid-cards'>
           {list && list.map(item => (
             <ListIssues
-            id={item.id}
-            url={item.html_url}
-            title={item.title}
-            user={item.user}
-            labels={item.labels}
-            key={item.id}
+              number={item.number}
+              url={item.html_url}
+              title={item.title}
+              user={item.user}
+              key={item.id}
             />
           ))}
         </div>

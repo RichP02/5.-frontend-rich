@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ImagesCard = ({ number, url, title, user, labels }) => {
-  const handleTitleClick = () => {
+  const clickBlank = () => {
     window.open(url, '_blank');
   };
 
@@ -9,7 +9,7 @@ const ImagesCard = ({ number, url, title, user, labels }) => {
     <div className="ImagesCard">
       <p className="number">Number: {number}</p>
       <p className="Title">
-        Title: <a href="#" onClick={handleTitleClick}>{title}</a>
+        Title: <a href="#" onClick={clickBlank}>{title}</a>
       </p>
       <p className="User">User: {user.login}</p>
     </div>
